@@ -26,7 +26,7 @@ global.autoviewstatus = process.env.AUTO_VIEW_STATUS !== 'false';
 global.welcome = process.env.WELCOME !== 'false';
 global.autoreact = process.env.AUTO_REACT === 'false';
 global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'false';
-global.autoOffline = process.env.AUTO_OFFLINE === 'true';
+global.autoOffline = process.env.AUTO_OFFLINE === 'false';
 
 // Default emoji
 global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
