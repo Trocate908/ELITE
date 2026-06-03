@@ -23,10 +23,10 @@ global.autoread = process.env.AUTO_READ === 'false';
 global.autobio = process.env.AUTO_BIO !== 'false';
 global.anti92 = process.env.ANTI_92 === 'false';
 global.autoviewstatus = process.env.AUTO_VIEW_STATUS !== 'false';
-global.welcome = process.env.WELCOME !== 'false';
+global.welcome = process.env.WELCOME !== 'true';
 global.autoreact = process.env.AUTO_REACT === 'false';
 global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'false';
-global.autoOffline = process.env.AUTO_OFFLINE === 'false';
+global.autoOffline = process.env.AUTO_OFFLINE === 'true';
 
 // Default emoji
 global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
