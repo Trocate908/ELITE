@@ -12,11 +12,11 @@
     },
     "PREFIX": {
       "description": "Bot command prefix (example: ., !, #)",
-      "value": "."
+      "value": "+"
     },
     "OWNER_NUMBER": {
       "description": "Owner's phone number in international format (without +).",
-      "value": "2347047504860"
+      "value": "263715907468"
     },
     "OWNER_NAME": {
       "description": "Owner's display name.",
@@ -44,7 +44,7 @@
     },
     "AUTO_BIO": {
       "description": "Enable auto bio updates with time.",
-      "value": "true"
+      "value": "false"
     },
     "ANTI_92": {
       "description": "Block +92 numbers automatically (true or false).",
@@ -64,7 +64,7 @@
     },
     "AUTO_LIKE_STATUS": {
       "description": "Automatically react to viewed statuses.",
-      "value": "true"
+      "value": "false"
     }
   },
   "buildpacks": [
